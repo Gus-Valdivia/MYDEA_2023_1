@@ -23,7 +23,7 @@
                     <i class="bi bi-question-circle quicon_cnf_lg" data-bs-toggle="tooltip" data-bs-placement="right"
                        data-bs-title="Tooltip on right"></i>
                 </section>
-                <form class="p2_cnf d-flex flex-column" method="post" id="FORM_CNF">
+                <div class="p2_cnf d-flex flex-column" method="post" id="FORM_CNF">
                     <section class="d-flex p21_cnf">
                         <button type="button" class="btn text-white btn_nav_cnf bg-dark" id="Btn_DtNg">
                             Datos del Negocio
@@ -31,20 +31,17 @@
                         <button type="button" class="btn btn_nav_cnf btn_nav_cnf_btn2 btn_APro" id="Btn_AnadirP">
                             Añadir Productos y/o Servicios
                         </button>
-                        <button type="submit" class="btn btn_nav_cnf btn_nav_cnf_btn2 btn_APro Btn_SubN" id="Btn_SubN">
-                            Subir Negocio
-                        </button>
                     </section>
                     <div class="p22_cnf p-4 pt-3">
                         <span class="dt_txt_cnf" id="dt_txt_cnf">Datos de Negocio</span>
-                        <div class="form_cnf Datos_Negocio" id="Datos_Negocio">
+                        <form class="form_cnf Datos_Negocio" id="Datos_Negocio">
                             <!--Parte 1-->
                             <section class="p221_cnf d-flex flex-column justify-content-between">
                                 <section>
                                     <span class="fw-bold">Nombre del Negocio
                                         <i class="bi bi-question-circle" data-bs-toggle="tooltip" data-bs-placement="right"
                                            data-bs-title="Tooltip on right"></i></span>
-                                    <input type="text" class="form-control" placeholder="Nombre de su negocio" id="N_Neg_cnf"/>
+                                    <input type="text" class="form-control" placeholder="Nombre de su negocio" id="N_Neg_cnf" />
                                 </section>
                                 <section>
                                     <span class="fw-bold">Tipo de Negocio
@@ -130,11 +127,11 @@
                                                 </section>
                                                 <section class="d-flex">
                                                     <section class="d-flex">
-                                                        <input type="checkbox" class="btn btn_rosa text-white" id="cerr_lun" value="lun_cerr" /><label
+                                                        <input type="checkbox" class="btn text-white" id="cerr_lun" value="lun_cerr" /><label
                                                             for="cerr_lun" class="radio_hc">Día Cerrado</label>
                                                     </section>
                                                     <section class="d-flex">
-                                                        <input type="checkbox" class="btn btn_rosa text-white" id="she_lun" value="lun_snhor" /><label
+                                                        <input type="checkbox" class="btn text-white" id="she_lun" value="lun_snhor" /><label
                                                             for="she_lun" class="radio_hs">Sin Horario Especifico</label>
                                                     </section>
                                                 </section>
@@ -418,8 +415,11 @@
                                     </li>
                                 </ul>
                             </div>
-                        </div>
-                        <div class="form_cnf Productos_cnf justify-content-between" id="Productos_cnf">
+                            <button type="submit" class="btn btn_sub_formsn " id="Btn_SubN">
+                                Subir Negocio
+                            </button>
+                        </form>
+                        <form class="form_cnf Productos_cnf justify-content-between" id="Productos_cnf">
                             <div class="prof1_cnf d-flex flex-column">
                                 <section class="d-flex w-100 h-50 justify-content-around">
 
@@ -440,13 +440,14 @@
                                             <span class="fw-bold">Nombre del Producto o Servicio
                                                 <i class="bi bi-question-circle" data-bs-toggle="tooltip" data-bs-placement="right"
                                                    data-bs-title="Tooltip on right"></i></span>
-                                            <input type="text" class="form-control" placeholder="Nombre de su Producto" id="Nom_Pro_inp"/>
+                                            <input type="text" class="form-control" placeholder="Nombre de su Producto" id="Nom_Pro_inp" />
                                         </section>
                                         <section>
                                             <span class="fw-bold">Precio del Producto o Servicio
                                                 <i class="bi bi-question-circle" data-bs-toggle="tooltip" data-bs-placement="right"
                                                    data-bs-title="Tooltip on right"></i></span>
-                                            <input type="number" class="form-control" placeholder="Ingrese el precio de su producto" id="Pre_Prod_inp"/>
+                                            <input type="number" class="form-control" placeholder="Ingrese el precio de su producto"
+                                                   id="Pre_Prod_inp" />
                                         </section>
                                     </section>
                                 </section>
@@ -490,9 +491,12 @@
                                     <div class="prod" id="prod3"></div>
                                 </section>
                             </div>
-                        </div>
+                            <button type="submit" class="btn btn_sub_formsn " id="Btn_SubN">
+                                Subir Producto(s)
+                            </button>
+                        </form>
                     </div>
-                </form>
+                </div>
             </div>
         </div>
         <script>

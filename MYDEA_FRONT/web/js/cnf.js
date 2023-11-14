@@ -213,6 +213,8 @@ Cerr_Lun.addEventListener("change", () => {
   if (Cerr_Lun.checked) {
     HorA_Lun.disabled = true;
     HorC_Lun.disabled = true;
+    HorA_Lun.value = "";
+    HorC_Lun.value = "";
     She_Lun.disabled = true;
   }
   if (!Cerr_Lun.checked) {
@@ -226,6 +228,8 @@ Cerr_Mar.addEventListener("change", () => {
   if (Cerr_Mar.checked) {
     HorA_Mar.disabled = true;
     HorC_Mar.disabled = true;
+    HorA_Mar.value = "";
+    HorC_Mar.value = "";
     She_Mar.disabled = true;
   }
   if (!Cerr_Mar.checked) {
@@ -239,6 +243,8 @@ Cerr_Mie.addEventListener("change", () => {
   if (Cerr_Mie.checked) {
     HorA_Mie.disabled = true;
     HorC_Mie.disabled = true;
+    HorA_Mar.value = "";
+    HorC_Mar.value = "";
     She_Mie.disabled = true;
   }
   if (!Cerr_Mie.checked) {
@@ -252,6 +258,8 @@ Cerr_Jue.addEventListener("change", () => {
   if (Cerr_Jue.checked) {
     HorA_Jue.disabled = true;
     HorC_Jue.disabled = true;
+    HorA_Jue.value = "";
+    HorC_Jue.value = "";
     She_Jue.disabled = true;
   }
   if (!Cerr_Jue.checked) {
@@ -265,6 +273,8 @@ Cerr_Vie.addEventListener("change", () => {
   if (Cerr_Vie.checked) {
     HorA_Vie.disabled = true;
     HorC_Vie.disabled = true;
+    HorA_Vie.value = "";
+    HorC_Vie.value = "";
     She_Vie.disabled = true;
   }
   if (!Cerr_Vie.checked) {
@@ -278,6 +288,8 @@ Cerr_Sab.addEventListener("change", () => {
   if (Cerr_Sab.checked) {
     HorA_Sab.disabled = true;
     HorC_Sab.disabled = true;
+    HorA_Sab.value = "";
+    HorC_Sab.value = "";
     She_Sab.disabled = true;
   }
   if (!Cerr_Sab.checked) {
@@ -291,6 +303,8 @@ Cerr_Dom.addEventListener("change", () => {
   if (Cerr_Dom.checked) {
     HorA_Dom.disabled = true;
     HorC_Dom.disabled = true;
+    HorA_Dom.value = "";
+    HorC_Dom.value = "";
     She_Dom.disabled = true;
   }
   if (!Cerr_Dom.checked) {
@@ -304,6 +318,8 @@ She_Lun.addEventListener("change", () => {
   if (She_Lun.checked) {
     HorA_Lun.disabled = true;
     HorC_Lun.disabled = true;
+    HorA_Lun.value = "";
+    HorC_Lun.value = "";
     Cerr_Lun.disabled = true;
   }
   if (!She_Lun.checked) {
@@ -317,6 +333,8 @@ She_Mar.addEventListener("change", () => {
   if (She_Mar.checked) {
     HorA_Mar.disabled = true;
     HorC_Mar.disabled = true;
+    HorA_Mar.value = "";
+    HorC_Mar.value = "";
     Cerr_Mar.disabled = true;
   }
   if (!She_Mar.checked) {
@@ -330,6 +348,8 @@ She_Mie.addEventListener("change", () => {
   if (She_Mie.checked) {
     HorA_Mie.disabled = true;
     HorC_Mie.disabled = true;
+    HorA_Mar.value = "";
+    HorC_Mar.value = "";
     Cerr_Mie.disabled = true;
   }
   if (!She_Mie.checked) {
@@ -343,6 +363,8 @@ She_Jue.addEventListener("change", () => {
   if (She_Jue.checked) {
     HorA_Jue.disabled = true;
     HorC_Jue.disabled = true;
+    HorA_Jue.value = "";
+    HorC_Jue.value = "";
     Cerr_Jue.disabled = true;
   }
   if (!She_Jue.checked) {
@@ -356,6 +378,8 @@ She_Vie.addEventListener("change", () => {
   if (She_Vie.checked) {
     HorA_Vie.disabled = true;
     HorC_Vie.disabled = true;
+    HorA_Vie.value = "";
+    HorC_Vie.value = "";
     Cerr_Vie.disabled = true;
   }
   if (!She_Vie.checked) {
@@ -369,6 +393,8 @@ She_Sab.addEventListener("change", () => {
   if (She_Sab.checked) {
     HorA_Sab.disabled = true;
     HorC_Sab.disabled = true;
+    HorA_Sab.value = "";
+    HorC_Sab.value = "";
     Cerr_Sab.disabled = true;
   }
   if (!She_Sab.checked) {
@@ -382,6 +408,8 @@ She_Dom.addEventListener("change", () => {
   if (She_Dom.checked) {
     HorA_Dom.disabled = true;
     HorC_Dom.disabled = true;
+    HorA_Dom.value = "";
+    HorC_Dom.value = "";
     Cerr_Dom.disabled = true;
   }
   if (!She_Dom.checked) {

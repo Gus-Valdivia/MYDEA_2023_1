@@ -663,3 +663,22 @@ label img {
   -o-border-radius: 5px;
   text-align: center;
 }
+
+.btn_sub_formsn{
+  position: absolute;
+  right: 4%;
+  top: 18%;
+  border: 3px solid black;
+  box-shadow: 3px 3px 1px black;
+  font-weight: bolder;
+}
+
+.btn_sub_formsn:hover{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  background-color: var(--bar-color);
+  color: white;
+}

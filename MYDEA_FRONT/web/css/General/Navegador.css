@@ -33,11 +33,19 @@ nav {
   border-bottom-right-radius: 0px;
   width: 80%;
   outline: none;
-  border: 1.5px solid #bcbcbc;
-  border-right: none;
+  border: none;
+  border-bottom: 1px solid #000000;
   color: #6a6a6a;
   font-family: var(--Inria_Sans);
   font-weight: bold;
+  border-radius:0px;
+  -webkit-border-radius:0px;
+  -moz-border-radius:0px;
+  -ms-border-radius:0px;
+  -o-border-radius:0px;
+  outline: none;
+  padding: 5px;
+  border-top-left-radius: 5px;
 }
 .input_search::placeholder {
   font-weight: 400;
@@ -48,7 +56,14 @@ nav {
 .input_search:focus {
   outline: none;
   background-color: white;
+  border-bottom: 2.3px solid #000000;
   font-weight: bold;
+  color: black;
+  transition: 0.1s;
+  -webkit-transition: 0.1s;
+  -moz-transition: 0.1s;
+  -ms-transition: 0.1s;
+  -o-transition: 0.1s;
 }
 .button_search {
   border-top-left-radius: 0px;
@@ -70,16 +85,25 @@ nav {
   font-size: 20px;
 }
 .btn_negro {
-  border: 2px solid black;
   font-family: var(--Inria_Sans);
   font-weight: bold;
   font-size: 1.1rem;
+  box-shadow: 3px 3px 1px black;
+}
+.btn_negro:hover{
+  transition: 0.3s;
+  -webkit-transition: 0.3s;
+  -moz-transition: 0.3s;
+  -ms-transition: 0.3s;
+  -o-transition: 0.3s;
+  border: 0.1px solid white;
 }
 .btn_rosa {
   border: 2px solid var(--btn_rosa);
   font-family: var(--Inria_Sans);
   background: var(--btn_rosa);
   font-weight: bold;
+  box-shadow: 3px 3px 1px var(--btn_rosa_hover);
 }
 .btn_rosa:hover {
   transition: 0.3s;
@@ -174,6 +198,10 @@ nav {
   gap: 10px;
   align-items: center;
   justify-content: center;
+  box-shadow: 3px 3px 1px black;
+}
+.btn_des{
+  box-shadow: 3px 3px 1px black;
 }
 .Cuenta_des ul li:hover{
   cursor: pointer;

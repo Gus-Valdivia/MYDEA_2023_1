@@ -14,7 +14,7 @@
         <title>Difunde tú Negocio con Mydea</title>
     </head>
     <body>
-        <jsp:include page="templates/Navegadores/Navegador_CC.jsp"/>
+        <jsp:include page="templates/Navegadores/Navegador_SC.jsp"/>
         <span class="Ni">Hola soy un index todo bonito en desarrollo pero no soy relevante wiiiii</span>
         <script>
             // Activar todos los tooltips
